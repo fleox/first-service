@@ -2,11 +2,11 @@
 
 # Reparcar Channel
 
-Reparcar channel micro service
+[Tuto create dev env with Docker and Traefik](https://medium.com/@fredericleaux/tuto-monter-un-environnement-de-dev-docker-avec-traefik-et-oauth2-pr%C3%AAt-pour-le-micro-service-12f78874d79c)
 
 # Requirements :
 
-- MS [Traefik-dockerize](https://github.com/restarteco/traefik-dockerized)
+- [Dockerize](https://github.com/fleox/dockerized)
 
 # Installation
 
@@ -15,8 +15,6 @@ cp docker-compose.override.yml.dist docker-compose.override.yml
 
 # run project with docker:
 docker-compose up -d
-
-# check if ACCESS_TOKEN_RECTOR secret exit on project or create one
 ```
 
 update your hosts:
@@ -24,17 +22,6 @@ update your hosts:
 - osx: `nano /etc/hosts`
 - Linux (Debian based): `vim /etc/hosts`
 
-and add : `127.0.0.1 local.channel-reparcar.fr`
+and add : `127.0.0.1 http://local.first-service.fr/`
 
-now you can go to [local.channel-reparcar.fr/channel/docs](http://local.channel-reparcar.fr/channel/docs) and start coding
-
-```bash
-# run bash in docker (console command ...) :
-docker-compose exec app bash
-```
-
-# Run tests
-
-```bash
-php vendor/bin/phpunit
-```
+now you can go to [http://local.first-service.fr/](http://local.first-service.fr/) and start coding
