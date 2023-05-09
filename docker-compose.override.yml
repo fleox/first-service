@@ -1,14 +1,18 @@
-version: '3'
-
 services:
-###> doctrine/doctrine-bundle ###
-  database:
-    ports:
-      - "5432"
-###< doctrine/doctrine-bundle ###
+  app_firstservice:
+    build:
+      args:
+        - SYMFONY_ENV=dev
+    volumes:
+      - ./:/var/www/project/:cached
+    labels:
+      - "traefik.http.routers.firstservice.rule=Host(`local.first-service.fr`)"
+      - traefik.http.routers.firstservice.entrypoints=http
+      - traefik.http.services.firstservice.loadbalancer.server.port=80
+    environment:
+      - SYMFONY_ENV=dev
+    networks:
+      - traefik
+      - symfony
 
-###> symfony/mailer ###
-  mailer:
-    image: schickling/mailcatcher
-    ports: ["1025", "1080"]
-###< symfony/mailer ###
+
