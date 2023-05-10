@@ -20,6 +20,6 @@ update your hosts:
 - osx: `nano /etc/hosts`
 - Linux (Debian based): `vim /etc/hosts`
 
-and add : `127.0.0.1 http://local.first-service.fr/`
+and add : `127.0.0.1 local.first-service.fr`
 
 now you can go to [http://local.first-service.fr/](http://local.first-service.fr/) and start coding
