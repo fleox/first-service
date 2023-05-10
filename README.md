@@ -1,5 +1,3 @@
-![](./docs/img/logo-reparcar-std-400.webp)
-
 # Tuto Docker / Treagik
 
 [Tuto create dev env with Docker and Traefik](https://medium.com/@fredericleaux/tuto-monter-un-environnement-de-dev-docker-avec-traefik-et-oauth2-pr%C3%AAt-pour-le-micro-service-12f78874d79c)
