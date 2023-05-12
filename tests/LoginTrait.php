@@ -50,7 +50,7 @@ trait LoginTrait
         ];
 
         if ('User::ROLE_CLIENT' == $role) {
-            $data['clientId'] = 'reparcar-connect';
+            $data['clientId'] = 'service-connect';
         }
 
         if (array_key_exists('clientId', $data) && 'User::ROLE_USER' == $role) {
