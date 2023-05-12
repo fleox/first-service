@@ -1,0 +1,7 @@
+App\Entity\Content:
+  Content_1:
+    slug: "titre-de-la-page"
+    content: "."
+  Content_random_{1..10}:
+    slug: <slug()>
+    content: <realText()>

@@ -11,6 +11,13 @@
         "doctrine/doctrine-bundle": "^2.9",
         "doctrine/doctrine-migrations-bundle": "^3.2",
         "doctrine/orm": "^2.15",
+        "friendsofsymfony/rest-bundle": "^3.5",
+        "hautelook/alice-bundle": "^2.12",
+        "jms/serializer-bundle": "^5.2",
+        "lexik/jwt-authentication-bundle": "^2.19",
+        "nelmio/api-doc-bundle": "^4.11",
+        "overblog/dataloader-bundle": "^0.6.0",
+        "overblog/graphql-bundle": "^0.15.2",
         "phpdocumentor/reflection-docblock": "^5.3",
         "phpstan/phpdoc-parser": "^1.20",
         "sensio/framework-extra-bundle": "^6.1",
@@ -41,7 +48,8 @@
         "symfony/web-link": "6.2.*",
         "symfony/yaml": "6.2.*",
         "twig/extra-bundle": "^2.12|^3.0",
-        "twig/twig": "^2.12|^3.0"
+        "twig/twig": "^2.12|^3.0",
+        "webonyx/graphql-php": "v14.5"
     },
     "config": {
         "allow-plugins": {
@@ -92,6 +100,8 @@
         }
     },
     "require-dev": {
+        "doctrine/doctrine-fixtures-bundle": "^3.4",
+        "overblog/graphiql-bundle": "^0.3.0",
         "phpunit/phpunit": "^9.5",
         "symfony/browser-kit": "6.2.*",
         "symfony/css-selector": "6.2.*",

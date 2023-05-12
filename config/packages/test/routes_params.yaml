@@ -1,0 +1,13 @@
+parameters:
+  role: 'ROLE_CLIENT'
+  graph_ql:
+    - body: { query: "query content {content(id: 1) {id,title}}", variables: null, operationName: "content" }
+  route_params:
+    app_content:
+      params: {id: 1}
+    admin:
+      response-status-code: 307
+    logout:
+      response-status-code: 302
+    api_get:
+      params: {id: 1}

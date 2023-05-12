@@ -1,0 +1,16 @@
+overblog_dataloader:
+  defaults:
+    # required
+    promise_adapter: "overblog_dataloader.webonyx_graphql_sync_promise_adapter"
+    # optional
+    # factory: ~
+    options:
+      batch: true
+      cache: true
+      # max_batch_size: ~
+      cache_map: "overblog_dataloader.cache_map"
+      # cache_key_fn: ~
+  loaders:
+    content:
+      alias: "content_loader"
+      batch_load_fn: "@App\\GraphQL\\Loader\\ContentLoader:all"
