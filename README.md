@@ -26,7 +26,9 @@ update your hosts:
 and add : `127.0.0.1 local.first-service.fr`
 
 now you can go to [http://local.first-service.fr/](http://local.first-service.fr/) and start coding
+
 Access to [GraphiQl](http://local.first-service.fr/graphql/graphiql)
+
 Access to Rest api doc [NelmioApiDoc](http://local.first-service.fr/api/doc)
 
 # Tests
