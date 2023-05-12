@@ -1,8 +1,7 @@
 # Tuto Docker / Traefik / Tests / API Rest - GraphQl
 Sample project API rest / graphQL
-[Tuto create dev env with Docker and Traefik](https://medium.com/@fredericleaux/tuto-monter-un-environnement-de-dev-docker-avec-traefik-et-oauth2-pr%C3%AAt-pour-le-micro-service-12f78874d79c)
-
-[Une Api Rest / GraphQl sans ApiPlatform (qu'il est préférable d'éviter)](https://medium.com/reparcar/comment-bien-supprimer-apiplatform-et-utiliser-des-solutions-alternatives-3661a0460e19)
+- [Tuto create dev env with Docker and Traefik](https://medium.com/@fredericleaux/tuto-monter-un-environnement-de-dev-docker-avec-traefik-et-oauth2-pr%C3%AAt-pour-le-micro-service-12f78874d79c)
+- [Une Api Rest / GraphQl sans ApiPlatform (qu'il est préférable d'éviter)](https://medium.com/reparcar/comment-bien-supprimer-apiplatform-et-utiliser-des-solutions-alternatives-3661a0460e19)
 
 # Requirements :
 
