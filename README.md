@@ -2,6 +2,7 @@
 Sample project API rest / graphQL
 - [Tuto create dev env with Docker and Traefik](https://medium.com/@fredericleaux/tuto-monter-un-environnement-de-dev-docker-avec-traefik-et-oauth2-pr%C3%AAt-pour-le-micro-service-12f78874d79c)
 - [Api Rest / GraphQl without ApiPlatform (which is best avoided)](https://medium.com/reparcar/comment-bien-supprimer-apiplatform-et-utiliser-des-solutions-alternatives-3661a0460e19)
+- [Symfony tutorial: Load JS scripts only when the page needs them with webpack](https://medium.com/@fredericleaux/tuto-symfony-charger-les-scripts-js-uniquement-quand-la-page-en-a-besoin-avec-webpack-2a3f9d058cc4)
 
 # Requirements :
 

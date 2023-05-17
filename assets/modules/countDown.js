@@ -8,7 +8,6 @@ export function init()
     }
 
     for (let i = 0; i < countdown.length; i++) {
-        console.log(countdown[i].dataset.countdown)
         let endDate = countdown[i].dataset.countdown,
         daysVal = countdown[i].querySelector('.countdown-days .countdown-value'),
         hoursVal = countdown[i].querySelector('.countdown-hours .countdown-value'),
