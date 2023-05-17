@@ -10,6 +10,16 @@ services:
     networks:
       - symfony
 
+  node:
+    build:
+      context: ./docker
+      dockerfile: Dockerfile-node
+    command: bash -c "yarn && yarn dev && tail -f /dev/null"
+    volumes:
+      - ./:/var/www/project
+    networks:
+      - symfony
+
 networks:
   symfony:
   traefik:

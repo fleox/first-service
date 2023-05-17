@@ -17,6 +17,11 @@ docker-compose up -d
 docker-compose exec app_firstservice bash
 # run fixtures
 php bin/console doctrine:fixtures:load
+
+# for js tuto
+docker-compose exec node bash
+yarn install
+yarn encore dev
 ```
 
 update your hosts:
