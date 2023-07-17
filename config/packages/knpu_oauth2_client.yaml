@@ -1,0 +1,12 @@
+# config/packages/knpu_oauth2_client.yaml
+knpu_oauth2_client:
+    clients:
+        keycloak:
+            # this will be one of the supported types
+            type: keycloak
+            client_id: '%env(KEYCLOAK_CLIENT_ID)%'
+            client_secret: '%env(KEYCLOAK_CLIENT_SECRET)%'
+            redirect_route: connect_check
+            redirect_params: {}
+            auth_server_url: http://local.services-domain.fr/auth
+            realm: master
